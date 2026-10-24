@@ -32,7 +32,7 @@ public final class ComedownHandler {
 					OVERCLOCKED.add(id);
 				} else if (OVERCLOCKED.remove(id) && player.isAlive()) {
 					player.addEffect(new MobEffectInstance(ModEffects.BURNOUT, BURNOUT_TICKS, 0));
-					player.displayClientMessage(Component.translatable("message.neon_chrome.burnout"), true);
+					player.sendSystemMessage(Component.translatable("message.neon_chrome.burnout"));
 				}
 			}
 		});
