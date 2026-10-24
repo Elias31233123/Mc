@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "neon_chrome:neon_cyan",
+    "neon_chrome:neon_magenta",
+    "neon_chrome:neon_yellow",
+    "neon_chrome:chrome_plating"
+  ]
+}

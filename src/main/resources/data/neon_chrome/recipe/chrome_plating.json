@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CCC",
+    "CCC",
+    "CCC"
+  ],
+  "key": {
+    "C": "neon_chrome:chrome_shard"
+  },
+  "result": {
+    "id": "neon_chrome:chrome_plating",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CGC",
+    "RBR"
+  ],
+  "key": {
+    "C": "neon_chrome:chrome_shard",
+    "G": "minecraft:glowstone_dust",
+    "R": "minecraft:redstone",
+    "B": "minecraft:glass_bottle"
+  },
+  "result": {
+    "id": "neon_chrome:overclock_injector",
+    "count": 1
+  }
+}

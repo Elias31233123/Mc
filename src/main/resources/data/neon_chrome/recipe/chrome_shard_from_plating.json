@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "neon_chrome:chrome_plating"
+  ],
+  "result": {
+    "id": "neon_chrome:chrome_shard",
+    "count": 9
+  }
+}

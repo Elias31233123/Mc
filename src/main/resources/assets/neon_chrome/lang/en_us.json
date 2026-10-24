@@ -1,0 +1,14 @@
+{
+  "item.neon_chrome.chrome_shard": "Chrome Shard",
+  "item.neon_chrome.overclock_injector": "Overclock Injector",
+  "item.neon_chrome.arm_blade": "Arm Blade",
+  "block.neon_chrome.neon_cyan": "Cyan Neon Block",
+  "block.neon_chrome.neon_magenta": "Magenta Neon Block",
+  "block.neon_chrome.neon_yellow": "Yellow Neon Block",
+  "block.neon_chrome.chrome_plating": "Chrome Plating",
+  "effect.neon_chrome.overclock": "Overclock",
+  "effect.neon_chrome.burnout": "Burnout",
+  "message.neon_chrome.overclock": "Overclock engaged",
+  "message.neon_chrome.burnout": "Burnout: systems cooling down",
+  "message.neon_chrome.not_ready": "Your nervous system can't take another dose yet"
+}

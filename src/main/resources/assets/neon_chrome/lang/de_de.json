@@ -1,0 +1,14 @@
+{
+  "item.neon_chrome.chrome_shard": "Chromsplitter",
+  "item.neon_chrome.overclock_injector": "Overclock-Injektor",
+  "item.neon_chrome.arm_blade": "Armklinge",
+  "block.neon_chrome.neon_cyan": "Cyan-Neonblock",
+  "block.neon_chrome.neon_magenta": "Magenta-Neonblock",
+  "block.neon_chrome.neon_yellow": "Gelber Neonblock",
+  "block.neon_chrome.chrome_plating": "Chrompanzerung",
+  "effect.neon_chrome.overclock": "Overclock",
+  "effect.neon_chrome.burnout": "Burnout",
+  "message.neon_chrome.overclock": "Overclock aktiviert",
+  "message.neon_chrome.burnout": "Burnout: Systeme kühlen ab",
+  "message.neon_chrome.not_ready": "Dein Nervensystem verträgt noch keine Dosis"
+}

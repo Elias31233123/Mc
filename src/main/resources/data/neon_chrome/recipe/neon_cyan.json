@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:glass",
+    "minecraft:glowstone_dust",
+    "minecraft:cyan_dye"
+  ],
+  "result": {
+    "id": "neon_chrome:neon_cyan",
+    "count": 2
+  }
+}

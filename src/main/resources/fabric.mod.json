@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "neon_chrome",
+  "version": "${version}",
+  "name": "Neon Chrome",
+  "description": "Cyberpunk-inspired gear for Minecraft: chrome parts, glowing neon blocks, an arm blade and an overclock injector with a nasty comedown.",
+  "authors": [
+    "Neon Chrome contributors"
+  ],
+  "license": "MIT",
+  "icon": "assets/neon_chrome/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.neonchrome.NeonChrome"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.1",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

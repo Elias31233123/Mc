@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "C",
+    "C",
+    "D"
+  ],
+  "key": {
+    "C": "neon_chrome:chrome_shard",
+    "D": "minecraft:diamond"
+  },
+  "result": {
+    "id": "neon_chrome:arm_blade",
+    "count": 1
+  }
+}
