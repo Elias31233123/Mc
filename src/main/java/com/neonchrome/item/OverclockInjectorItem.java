@@ -25,7 +25,7 @@ public class OverclockInjectorItem extends Item {
 		// Don't stack boosts, and don't let people chain injectors through the comedown.
 		if (player.hasEffect(ModEffects.OVERCLOCK) || player.hasEffect(ModEffects.BURNOUT)) {
 			if (!level.isClientSide()) {
-				player.displayClientMessage(Component.translatable("message.neon_chrome.not_ready"), true);
+				player.sendSystemMessage(Component.translatable("message.neon_chrome.not_ready"));
 			}
 			return InteractionResult.FAIL;
 		}
@@ -34,7 +34,7 @@ public class OverclockInjectorItem extends Item {
 			ItemStack stack = player.getItemInHand(hand);
 
 			player.addEffect(new MobEffectInstance(ModEffects.OVERCLOCK, OVERCLOCK_TICKS, 0));
-			player.displayClientMessage(Component.translatable("message.neon_chrome.overclock"), true);
+			player.sendSystemMessage(Component.translatable("message.neon_chrome.overclock"));
 			level.playSound(null, player.blockPosition(), SoundEvents.BEACON_ACTIVATE, SoundSource.PLAYERS, 1.0F, 1.8F);
 
 			if (!player.hasInfiniteMaterials()) {
